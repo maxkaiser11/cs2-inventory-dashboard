@@ -1,7 +1,7 @@
 import { Hono } from "hono";
 import { sign } from "hono/jwt";
-import { db } from "./db";
-import { users } from "./db/schema";
+import { db } from "../db/";
+import { users } from "../db/schema";
 import { setCookie } from "hono/cookie";
 
 const steamAuth = new Hono();

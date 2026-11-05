@@ -1,5 +1,5 @@
 import { Hono } from "hono";
-import steamAuth from "./steamauth";
+import steamAuth from "./auth/steamauth";
 import inventory from "./inventory";
 
 const app = new Hono();
